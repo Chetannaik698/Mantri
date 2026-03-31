@@ -128,9 +128,9 @@
 .input-box span {
   position: absolute;
   right: 10px;
-  top: 10px;
+  top: 16px;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .checkbox {

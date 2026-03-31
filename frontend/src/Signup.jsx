@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom"; //newly added
 import "./Styles/Signup.css";
 import googleIcon from "./assets/google.png";
 import illustration from "./assets/illustration.png";
+import mantrilogo from "./assets/mantrilogo.png";
 
 function Signup() {
   return (
@@ -15,7 +17,7 @@ function Signup() {
             {/* LOGO */}
             <div className="login-brand">
               <div className="logo-dot">
-                <img src={googleIcon} alt="" />
+                <img src={mantrilogo} alt="" />
               </div>
               <span>MindBridge</span>
             </div>
@@ -59,9 +61,10 @@ function Signup() {
             <button className="create-btn">Create Account</button>
 
             {/* SIGNIN TEXT */}
-            <p className="signin">
-              Already have an account? <span>Sign in</span>
-            </p>
+           <p className="signin">
+  Already have an account?
+  <Link to="/signin" className="link"> Sign in</Link>
+</p>
 
           </div>
         </div>
