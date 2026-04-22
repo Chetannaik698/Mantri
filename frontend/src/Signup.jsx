@@ -52,7 +52,7 @@ function Signup() {
             {/* CHECKBOX */}
             <div className="checkbox">
               <input type="checkbox" id="terms" />
-              <label htmlFor="terms">
+              <label htmlFor="terms" className="privacy-policy">
                 I agree to <b>Terms</b> & <b>Privacy Policy</b>
               </label>
             </div>

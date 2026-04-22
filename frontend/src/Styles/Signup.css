@@ -140,8 +140,14 @@
 }
 
 .checkbox label {
-  white-space: nowrap; /* keeps it in one line */
+  white-space: nowrap;
 }
+.privacy-policy {
+  cursor: pointer;
+  font-size: 15px;
+
+}
+
 /* BUTTON */
 .create-btn {
   width: 100%;

@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* MAIN CONTAINER */
+.landing-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e8eaf2;
+}
+
+/* WRAPPER (BIG FIX) */
+.landing-wrapper {
+  width: 1150px;      /* 🔥 increased */
+  height: 600px;      /* 🔥 increased */
+  display: flex;
+  border-radius: 16px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* LEFT SIDE */
+.landing-left {
+  width: 50%;
+  padding: 60px;
+  background: linear-gradient(135deg, #5b6cf0, #4f46e5);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;   /* 🔥 FIX */
+}
+
+.landing-left {
+  width: 50%;
+  padding: 60px;
+  background: linear-gradient(135deg, #5b6cf0, #4f46e5);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;   /* 🔥 FIX */
+}
+
+/* LOGO */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 32px;
+}
+
+/* TEXT */
+h1 {
+  font-size: 38px;     /* 🔥 bigger */
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.landing-left .subtitle {
+  margin-top: 15px;
+  font-size: 16px;
+  color: white !important;   /* 🔥 force override */
+  opacity: 1 !important;     /* 🔥 remove fade */
+}
+
+/* BUTTONS */
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.primary-btn {
+  padding: 12px 22px;
+  border: none;
+  border-radius: 8px;
+  background: white;
+  color: #4f46e5;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  padding: 12px 22px;
+  border-radius: 8px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+/* FEATURES */
+.features {
+  display: flex;
+  gap: 30px;
+  font-size: 14px;
+  opacity: 0.95;
+}
+
+/* RIGHT SIDE */
+.landing-right {
+  width: 50%;
+  background: #f3f5fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* IMAGE (IMPORTANT FIX) */
+.landing-right img {
+  width: 90%;           /* 🔥 increased */
+  max-width: 500px;
+}

@@ -1,0 +1,98 @@
+.in-container {
+  padding: 24px;
+  background: #f8fafc;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.sub {
+  color: #64748b;
+  margin-bottom: 15px;
+}
+
+/* TOP */
+.in-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.moods span {
+  margin-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.filters select {
+  margin-left: 10px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+/* GRID */
+.in-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+/* CARD */
+.in-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* CHART */
+.chart-box {
+  height: 200px;
+  background: #e2e8f0;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* BREAKDOWN */
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.bar {
+  padding: 5px 12px;
+  border-radius: 20px;
+  color: white;
+}
+
+.good { background: #059669; }
+.neutral { background: #f59e0b; }
+.anxious { background: #fb923c; }
+.stressed { background: #ef4444; }
+
+/* MINI CARDS */
+.in-cards {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.mini {
+  flex: 1;
+  padding: 15px;
+  border-radius: 12px;
+  background: #e2e8f0;
+}
+
+.mini p {
+  margin-top: 5px;
+}
+
+/* FOOTER */
+.in-footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #64748b;
+}

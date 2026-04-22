@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #eceaf7;
+}
+
+/* MAIN */
+.mb-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+/* SIDEBAR */
+.mb-sidebar {
+  width: 260px;
+  background: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #eee;
+}
+
+.mb-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.mb-logo img {
+  width: 28px;
+}
+
+/* MENU */
+.mb-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mb-menu-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.mb-menu-item.active {
+  background: linear-gradient(to right, #5b5ef4, #6d6fff);
+  color: white;
+}
+
+/* NUMBER CIRCLE */
+.circle {
+  width: 24px;
+  height: 24px;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+/* USER */
+.mb-user {
+  margin-top: auto;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.mb-user img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+/* SESSION PANEL */
+.mb-session-panel {
+  width: 350px;
+  padding: 25px;
+  background: #f4f3fb;
+  display: flex;
+  flex-direction: column;
+}
+
+.mb-session-panel h2 {
+  margin-bottom: 10px;
+}
+
+.mb-search input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+/* SESSION LIST */
+.mb-session-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mb-session {
+  background: white;
+  padding: 14px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.mb-session.active {
+  border-left: 4px solid #5b5ef4;
+}
+
+.mb-session .top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+/* ALERT */
+.mb-alert {
+  margin-top: auto;
+  background: #ffe4c4;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+/* CHAT PANEL */
+.mb-chat-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+}
+
+/* HEADER */
+.mb-chat-header {
+  padding: 18px 20px;
+  font-size: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.badge {
+  margin-left: 10px;
+  background: #ffe4c4;
+  padding: 4px 10px;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+/* SUMMARY */
+.mb-summary {
+  margin: 15px 20px;
+  padding: 12px;
+  background: #f3f3f3;
+  border-radius: 10px;
+}
+
+/* MESSAGES */
+.mb-messages {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.msg {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.msg.user {
+  justify-content: flex-end;
+}
+
+.msg img {
+  width: 35px;
+  margin-right: 10px;
+}
+
+/* BUBBLE */
+.bubble {
+  padding: 12px;
+  border-radius: 12px;
+  max-width: 60%;
+  font-size: 14px;
+}
+
+.msg.user .bubble {
+  background: linear-gradient(to right, #5b5ef4, #6d6fff);
+  color: white;
+}
+
+.msg.ai .bubble {
+  background: #f1f1f1;
+}
+
+/* INPUT */
+.mb-input {
+  display: flex;
+  padding: 15px;
+  border-top: 1px solid #eee;
+  gap: 10px;
+}
+
+.mb-input input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+}
+
+.mb-input button {
+  margin-top: 7px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  background: #5b5ef4;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* DASHBOARD */
+.placeholder {
+  padding: 20px;
+}
